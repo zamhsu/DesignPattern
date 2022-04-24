@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "StructuralPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "CreationalPatterns\Singleton\Singleton.csproj", "{AD64A27A-DE6E-4A36-9808-32906EEA71F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistryOfSingletons", "CreationalPatterns\RegistryOfSingletons\RegistryOfSingletons.csproj", "{33B24F04-8F71-4BF8-ADFA-A96E0A5944E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AD64A27A-DE6E-4A36-9808-32906EEA71F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD64A27A-DE6E-4A36-9808-32906EEA71F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD64A27A-DE6E-4A36-9808-32906EEA71F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B24F04-8F71-4BF8-ADFA-A96E0A5944E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B24F04-8F71-4BF8-ADFA-A96E0A5944E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B24F04-8F71-4BF8-ADFA-A96E0A5944E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B24F04-8F71-4BF8-ADFA-A96E0A5944E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{D987A493-8B4D-4E45-8CD8-29F62A4D8833} = {F74311C9-BA22-4BEC-8C90-9654B82BCAB7}
 		{22CA8AF2-98A6-446F-A601-AC5C9A0881C5} = {F6BF1D76-0554-4D4D-B743-E3AAD03181AF}
 		{AD64A27A-DE6E-4A36-9808-32906EEA71F7} = {87F66FF7-8F29-4498-A7ED-1BFB170CB0ED}
+		{33B24F04-8F71-4BF8-ADFA-A96E0A5944E7} = {87F66FF7-8F29-4498-A7ED-1BFB170CB0ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF5603D5-D3DD-4A71-9732-5BE25D335340}
