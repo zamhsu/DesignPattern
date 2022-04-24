@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{7293B65D-6996-4101-957E-2D320B5C7AAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "CreationalPatterns\SimpleFactory\SimpleFactory.csproj", "{7293B65D-6996-4101-957E-2D320B5C7AAF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{87F66FF7-8F29-4498-A7ED-1BFB170CB0ED}"
 EndProject
@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "Struc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{F74311C9-BA22-4BEC-8C90-9654B82BCAB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplatePattern\TemplateMethod.csproj", "{D987A493-8B4D-4E45-8CD8-29F62A4D8833}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "BehavioralPatterns\TemplateMethod\TemplateMethod.csproj", "{D987A493-8B4D-4E45-8CD8-29F62A4D8833}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{22CA8AF2-98A6-446F-A601-AC5C9A0881C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "StructuralPatterns\Decorator\Decorator.csproj", "{22CA8AF2-98A6-446F-A601-AC5C9A0881C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
