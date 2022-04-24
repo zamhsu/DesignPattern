@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "Behav
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplatePattern\TemplateMethod.csproj", "{D987A493-8B4D-4E45-8CD8-29F62A4D8833}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{22CA8AF2-98A6-446F-A601-AC5C9A0881C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D987A493-8B4D-4E45-8CD8-29F62A4D8833}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D987A493-8B4D-4E45-8CD8-29F62A4D8833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D987A493-8B4D-4E45-8CD8-29F62A4D8833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CA8AF2-98A6-446F-A601-AC5C9A0881C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CA8AF2-98A6-446F-A601-AC5C9A0881C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CA8AF2-98A6-446F-A601-AC5C9A0881C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CA8AF2-98A6-446F-A601-AC5C9A0881C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7293B65D-6996-4101-957E-2D320B5C7AAF} = {87F66FF7-8F29-4498-A7ED-1BFB170CB0ED}
 		{D987A493-8B4D-4E45-8CD8-29F62A4D8833} = {F74311C9-BA22-4BEC-8C90-9654B82BCAB7}
+		{22CA8AF2-98A6-446F-A601-AC5C9A0881C5} = {F6BF1D76-0554-4D4D-B743-E3AAD03181AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF5603D5-D3DD-4A71-9732-5BE25D335340}
