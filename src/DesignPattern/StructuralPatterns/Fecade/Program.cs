@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            // 簡單工廠
+            // 門面/外觀模式
             Console.WriteLine("Fecade (門面/外觀模式)");
 
             // 目的：讓User透過高層的"夾層"來呼叫子系統，
