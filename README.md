@@ -7,6 +7,11 @@
 參考：
 [https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522)
 
+### Factory Method 工廠方法
+
+參考：
+[https://www.jianshu.com/p/1275b99ca973](https://www.jianshu.com/p/1275b99ca973)
+
 ### Singleton 單例模式
 
 參考：
