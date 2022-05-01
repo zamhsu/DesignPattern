@@ -25,24 +25,24 @@
 
             Console.ReadLine();
         }
+    }
 
-        public class IntConverter
+    public class IntConverter
+    {
+        public static int ByteToInt(byte[] b)
         {
-            public static int ByteToInt(byte[] b)
-            {
-                // 現在的實作
-                return b[0] + b[1] * 256 + b[2] * 256 * 256 + b[3] * 256 * 256 * 256;
-                
-                // 原本的實作
-                //return BitConverter.ToInt32(b, 0);
-            }
+            // 現在的實作
+            return b[0] + b[1] * 256 + b[2] * 256 * 256 + b[3] * 256 * 256 * 256;
 
-            public static int StringToInt(string text)
-            {
-                _ = int.TryParse(text, out int result);
+            // 原本的實作
+            //return BitConverter.ToInt32(b, 0);
+        }
 
-                return result;
-            }
+        public static int StringToInt(string text)
+        {
+            _ = int.TryParse(text, out int result);
+
+            return result;
         }
     }
 }
