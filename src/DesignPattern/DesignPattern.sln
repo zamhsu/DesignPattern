@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "StructuralPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "BehavioralPatterns\Strategy\Strategy.csproj", "{8CD4CD6E-ECD6-4655-9D6F-31399869BAE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fecade", "StructuralPatterns\Fecade\Fecade.csproj", "{2889CF01-5B4B-45ED-A80E-B95E7FD73A54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8CD4CD6E-ECD6-4655-9D6F-31399869BAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CD4CD6E-ECD6-4655-9D6F-31399869BAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CD4CD6E-ECD6-4655-9D6F-31399869BAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2889CF01-5B4B-45ED-A80E-B95E7FD73A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2889CF01-5B4B-45ED-A80E-B95E7FD73A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2889CF01-5B4B-45ED-A80E-B95E7FD73A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2889CF01-5B4B-45ED-A80E-B95E7FD73A54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{1C590EBF-C11A-4807-B827-700C3FD37294} = {F74311C9-BA22-4BEC-8C90-9654B82BCAB7}
 		{7ED7E513-9B1D-4128-8F4C-14045D296C3B} = {F6BF1D76-0554-4D4D-B743-E3AAD03181AF}
 		{8CD4CD6E-ECD6-4655-9D6F-31399869BAE0} = {F74311C9-BA22-4BEC-8C90-9654B82BCAB7}
+		{2889CF01-5B4B-45ED-A80E-B95E7FD73A54} = {F6BF1D76-0554-4D4D-B743-E3AAD03181AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF5603D5-D3DD-4A71-9732-5BE25D335340}

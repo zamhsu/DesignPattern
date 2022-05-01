@@ -28,6 +28,11 @@
 參考：
 [https://www.gss.com.tw/blog/design-pattern-%E5%8F%AF%E8%83%BD%E6%98%AF%E4%BD%A0%E7%AC%AC%E4%B8%80%E5%80%8B%E6%8E%A5%E8%A7%B8%E5%88%B0%E7%9A%84pattern](https://www.gss.com.tw/blog/design-pattern-%E5%8F%AF%E8%83%BD%E6%98%AF%E4%BD%A0%E7%AC%AC%E4%B8%80%E5%80%8B%E6%8E%A5%E8%A7%B8%E5%88%B0%E7%9A%84pattern)
 
+### Fecade 門面/外觀模式
+
+參考：
+[https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522)
+
 ## Behavioral Patterns
 ### Template Method 範本方法模式
 
