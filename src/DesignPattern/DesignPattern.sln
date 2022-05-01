@@ -11,17 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "Struc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{F74311C9-BA22-4BEC-8C90-9654B82BCAB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "BehavioralPatterns\TemplateMethod\TemplateMethod.csproj", "{D987A493-8B4D-4E45-8CD8-29F62A4D8833}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "BehavioralPatterns\TemplateMethod\TemplateMethod.csproj", "{D987A493-8B4D-4E45-8CD8-29F62A4D8833}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "StructuralPatterns\Decorator\Decorator.csproj", "{22CA8AF2-98A6-446F-A601-AC5C9A0881C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "CreationalPatterns\Singleton\Singleton.csproj", "{AD64A27A-DE6E-4A36-9808-32906EEA71F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "CreationalPatterns\Singleton\Singleton.csproj", "{AD64A27A-DE6E-4A36-9808-32906EEA71F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistryOfSingletons", "CreationalPatterns\RegistryOfSingletons\RegistryOfSingletons.csproj", "{33B24F04-8F71-4BF8-ADFA-A96E0A5944E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistryOfSingletons", "CreationalPatterns\RegistryOfSingletons\RegistryOfSingletons.csproj", "{33B24F04-8F71-4BF8-ADFA-A96E0A5944E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "BehavioralPatterns\Iterator\Iterator.csproj", "{1C590EBF-C11A-4807-B827-700C3FD37294}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "BehavioralPatterns\Iterator\Iterator.csproj", "{1C590EBF-C11A-4807-B827-700C3FD37294}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "StructuralPatterns\Composite\Composite.csproj", "{7ED7E513-9B1D-4128-8F4C-14045D296C3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "StructuralPatterns\Composite\Composite.csproj", "{7ED7E513-9B1D-4128-8F4C-14045D296C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "BehavioralPatterns\Strategy\Strategy.csproj", "{8CD4CD6E-ECD6-4655-9D6F-31399869BAE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{7ED7E513-9B1D-4128-8F4C-14045D296C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ED7E513-9B1D-4128-8F4C-14045D296C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ED7E513-9B1D-4128-8F4C-14045D296C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD4CD6E-ECD6-4655-9D6F-31399869BAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD4CD6E-ECD6-4655-9D6F-31399869BAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD4CD6E-ECD6-4655-9D6F-31399869BAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD4CD6E-ECD6-4655-9D6F-31399869BAE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{33B24F04-8F71-4BF8-ADFA-A96E0A5944E7} = {87F66FF7-8F29-4498-A7ED-1BFB170CB0ED}
 		{1C590EBF-C11A-4807-B827-700C3FD37294} = {F74311C9-BA22-4BEC-8C90-9654B82BCAB7}
 		{7ED7E513-9B1D-4128-8F4C-14045D296C3B} = {F6BF1D76-0554-4D4D-B743-E3AAD03181AF}
+		{8CD4CD6E-ECD6-4655-9D6F-31399869BAE0} = {F74311C9-BA22-4BEC-8C90-9654B82BCAB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF5603D5-D3DD-4A71-9732-5BE25D335340}

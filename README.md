@@ -38,3 +38,8 @@
 
 參考：
 [https://www.jianshu.com/p/ae229f72c522](https://www.jianshu.com/p/ae229f72c522)
+
+### Strategy 策略模式
+
+參考：
+[https://ithelp.ithome.com.tw/articles/10202506](https://ithelp.ithome.com.tw/articles/10202506)
