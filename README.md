@@ -48,3 +48,8 @@
 
 參考：
 [https://ithelp.ithome.com.tw/articles/10202506](https://ithelp.ithome.com.tw/articles/10202506)
+
+### Chain of Responsibility 責任鏈
+
+參考：
+[https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522)
