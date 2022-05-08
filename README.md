@@ -43,6 +43,11 @@
 參考：
 [https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522)
 
+### Adapter 轉接器
+
+參考：
+[https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522)
+
 ## Behavioral Patterns
 ### Template Method 範本方法模式
 
