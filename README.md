@@ -12,6 +12,11 @@
 參考：
 [https://www.jianshu.com/p/1275b99ca973](https://www.jianshu.com/p/1275b99ca973)
 
+### Abstract Factory 抽象工廠
+
+參考：
+[http://c.biancheng.net/view/1351.html](http://c.biancheng.net/view/1351.html)
+
 ### Singleton 單例模式
 
 參考：
