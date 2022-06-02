@@ -1,4 +1,5 @@
 ﻿using System.IO.Compression;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace StructuralPatterns.Decorator
@@ -192,6 +193,75 @@ namespace StructuralPatterns.Decorator
 
             compressed.Seek(0, SeekOrigin.Begin);
             return compressed;
+        }
+    }
+
+    /// <summary>
+    /// DES 加密裝飾器
+    /// </summary>
+    public class DESCryptoFileDecorator : FileDecorator
+    {
+        public DESCryptoFileDecorator(IFileProcess fileProcess) : base(fileProcess)
+        {
+
+        }
+
+        private readonly string desKey = "12345678";
+        private readonly string desIv = "87654321";
+
+        public override byte[] Read(string path)
+        {
+            byte[] encryptedBytes = _fileProcess.Read(path);
+
+            return Decrypt(encryptedBytes);
+        }
+
+        private byte[] Decrypt(byte[] encryptedBytes)
+        {
+            DESCryptoServiceProvider des = new DESCryptoServiceProvider();
+            byte[] key = Encoding.ASCII.GetBytes(desKey);
+            byte[] iv = Encoding.ASCII.GetBytes(desIv);
+            des.Key = key;
+            des.IV = iv;
+
+            using (MemoryStream ms = new MemoryStream())
+            {
+                using (CryptoStream cs = new CryptoStream(ms, des.CreateDecryptor(), CryptoStreamMode.Write))
+                {
+                    cs.Write(encryptedBytes, 0, encryptedBytes.Length);
+                    cs.FlushFinalBlock();
+
+                    return ms.ToArray();
+                }
+            }
+        }
+
+        public override void Write(string path, byte[] data)
+        {
+            byte[] outputBytes = Encrypt(data);
+
+            _fileProcess.Write(path, outputBytes);
+        }
+
+        private byte[] Encrypt(byte[] data)
+        {
+            DESCryptoServiceProvider des = new DESCryptoServiceProvider();
+            byte[] key = Encoding.ASCII.GetBytes(desKey);
+            byte[] iv = Encoding.ASCII.GetBytes(desIv);
+
+            des.Key = key;
+            des.IV = iv;
+
+            using(MemoryStream ms = new MemoryStream())
+            {
+                using (CryptoStream cs = new CryptoStream(ms, des.CreateEncryptor(), CryptoStreamMode.Write))
+                {
+                    cs.Write(data, 0, data.Length);
+                    cs.FlushFinalBlock();
+
+                    return ms.ToArray();
+                }
+            }
         }
     }
 }
