@@ -47,14 +47,14 @@ namespace StructuralPatterns.Decorator
     /// <summary>
     /// 檔案處理(包裝的禮盒)
     /// </summary>
-    public interface IFilePrecess
+    public interface IFileProcess
     {
         byte[] Read(string path);
 
         void Write(string path, byte[] data);
     }
 
-    public class FileProcess : IFilePrecess
+    public class FileProcess : IFileProcess
     {
         public byte[] Read(string path)
         {
@@ -70,15 +70,15 @@ namespace StructuralPatterns.Decorator
     /// <summary>
     /// Decorator 的抽象(建立輸送帶)
     /// </summary>
-    public abstract class FileDecorator : IFilePrecess
+    public abstract class FileDecorator : IFileProcess
     {
         // 模具的抽屜軌道，讓你可以抽換的滑軌，等具體的模組進來
-        protected readonly IFilePrecess _filePrecess;
+        protected readonly IFileProcess _fileProcess;
 
         // 利用建構式，執行插入模具
-        public FileDecorator(IFilePrecess filePrecess)
+        public FileDecorator(IFileProcess filePrecess)
         {
-            _filePrecess = filePrecess;
+            _fileProcess = filePrecess;
         }
 
         public abstract byte[] Read(string path);
@@ -92,14 +92,14 @@ namespace StructuralPatterns.Decorator
     /// </summary>
     public class Base64FileDecorator : FileDecorator
     {
-        public Base64FileDecorator(IFilePrecess filePrecess) : base(filePrecess)
+        public Base64FileDecorator(IFileProcess filePrecess) : base(filePrecess)
         { 
             
         }
 
         public override byte[] Read(string path)
         {
-            byte[] base64Bytes = _filePrecess.Read(path);
+            byte[] base64Bytes = _fileProcess.Read(path);
 
             return Decode(base64Bytes);
         }
@@ -115,7 +115,7 @@ namespace StructuralPatterns.Decorator
         {
             // 執行壓模Encode(代表賓士的圖案)
             byte[] base64Bytes = Encode(data);
-            _filePrecess.Write(path, base64Bytes);
+            _fileProcess.Write(path, base64Bytes);
         }
 
         private byte[] Encode(byte[] data)
@@ -129,14 +129,14 @@ namespace StructuralPatterns.Decorator
     /// </summary>
     public class GZipFileDecorator : FileDecorator
     {
-        public GZipFileDecorator(IFilePrecess fileProcess) : base(fileProcess)
+        public GZipFileDecorator(IFileProcess fileProcess) : base(fileProcess)
         {
 
         }
 
         public override byte[] Read(string path)
         {
-            byte[] compressedBytes = _filePrecess.Read(path);
+            byte[] compressedBytes = _fileProcess.Read(path);
 
             return Decompress(compressedBytes);
         }
@@ -170,7 +170,7 @@ namespace StructuralPatterns.Decorator
             byte[] outputBytes = Compress(data);
 
             // 存檔(包裝進倉儲給他丟進倉庫)
-            _filePrecess.Write(path, outputBytes);
+            _fileProcess.Write(path, outputBytes);
         }
 
         private byte[] Compress(byte[] data)
