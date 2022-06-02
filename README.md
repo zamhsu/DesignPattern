@@ -27,7 +27,7 @@
 參考：
 [https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522)
 
-### Prototype 原型
+### Prototype 原型模式
 
 參考：
 [https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/09/140841](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/09/140841)
@@ -49,10 +49,15 @@
 參考：
 [https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522)
 
-### Adapter 轉接器
+### Adapter 轉接器模式
 
 參考：
 [https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522)
+
+### Proxy 代理模式
+
+參考：
+[https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/09/140841](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/09/140841)
 
 
 ## Behavioral Patterns
@@ -71,7 +76,7 @@
 參考：
 [https://ithelp.ithome.com.tw/articles/10202506](https://ithelp.ithome.com.tw/articles/10202506)
 
-### Chain of Responsibility 責任鏈
+### Chain of Responsibility 責任鏈模式
 
 參考：
 [https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522)
