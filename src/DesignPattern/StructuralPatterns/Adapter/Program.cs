@@ -1,7 +1,7 @@
 ﻿using System.Net.Sockets;
 using System.Text;
 
-namespace CreationalPatterns.SimpleFactory
+namespace StructuralPatterns.Adapter
 {
     class Program
     {

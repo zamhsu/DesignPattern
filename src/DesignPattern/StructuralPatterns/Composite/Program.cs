@@ -1,4 +1,4 @@
-﻿namespace CreationalPatterns.SimpleFactory
+﻿namespace StructuralPatterns.Composite
 {
     class Program
     {

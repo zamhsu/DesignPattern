@@ -1,4 +1,4 @@
-﻿namespace CreationalPatterns.SimpleFactory
+﻿namespace BehavioralPatterns.ChainOfResponsibility
 {
     class Program
     {
