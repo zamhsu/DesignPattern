@@ -32,6 +32,11 @@
 參考：
 [https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/09/140841](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/09/140841)
 
+### Builder 建造者模式
+
+參考：
+[https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/09/140841](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/09/140841)
+
 
 ## Structural Patterns
 ### Decorator 裝飾器模式
