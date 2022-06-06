@@ -95,3 +95,8 @@
 
 參考：
 [https://ithelp.ithome.com.tw/articles/10196254](https://ithelp.ithome.com.tw/articles/10196254)
+
+### Observer 觀察者模式
+
+參考：
+[https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/16/112528](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/16/112528)
