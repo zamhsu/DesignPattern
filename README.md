@@ -100,3 +100,8 @@
 
 參考：
 [https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/16/112528](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/16/112528)
+
+### Mediator 中介者模式
+
+參考：
+[https://www.dotblogs.com.tw/bda605/2020/08/15/204020](https://www.dotblogs.com.tw/bda605/2020/08/15/204020)
