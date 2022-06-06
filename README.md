@@ -90,3 +90,8 @@
 
 參考：
 [https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/02/123522)
+
+### State 狀態模式
+
+參考：
+[https://ithelp.ithome.com.tw/articles/10196254](https://ithelp.ithome.com.tw/articles/10196254)
