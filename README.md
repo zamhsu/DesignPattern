@@ -105,3 +105,8 @@
 
 參考：
 [https://www.dotblogs.com.tw/bda605/2020/08/15/204020](https://www.dotblogs.com.tw/bda605/2020/08/15/204020)
+
+### Visitor 訪問者模式
+
+參考：
+[https://www.jianshu.com/p/3aa45b6be7ae](https://www.jianshu.com/p/3aa45b6be7ae)
