@@ -115,3 +115,8 @@
 
 參考：
 [https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/16/112528](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/16/112528)
+
+### Memento 備忘錄模式
+
+參考：
+[https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/09/140841](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/09/140841)
