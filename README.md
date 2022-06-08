@@ -110,3 +110,8 @@
 
 參考：
 [https://www.jianshu.com/p/3aa45b6be7ae](https://www.jianshu.com/p/3aa45b6be7ae)
+
+### Command 命令模式
+
+參考：
+[https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/16/112528](https://dotblogs.com.tw/Pharaohs_Treasure/2018/12/16/112528)
